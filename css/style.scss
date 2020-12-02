@@ -1,0 +1,502 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body{
+    margin: 0 auto;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+header{
+    display: flex;
+    width: 100%;
+    background-color: rgba(10,10,10,0.95);
+    
+}
+header div{
+    display: flex;
+    width: 100%;
+    padding: 0 5%;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.logo{
+    ol{
+        list-style: none;
+        margin: 0;
+    }
+}
+
+.header_nav{
+    width: 40%;
+    display: flex;
+    flex-wrap: wrap;
+    ul{
+        display: flex;
+        list-style: none;
+        justify-content: space-between;
+        width: 100%;
+
+        li{
+            display: inline-flex;
+            a{
+                text-decoration: none;
+                color: white;
+            }
+        }
+        .search{
+            display: flex;
+            margin-right: 10px;
+            align-items: center;
+            input{
+                width: 236px 34px;
+                height: 30px;
+                padding: 5% 5%;
+                border: 0px solid black;
+                border-radius: 3px;
+            }
+            a{
+                width: 34px;
+            }
+        }
+        .profil{
+            align-items: center;
+            padding: 5xp;
+            margin-right: 5px;
+            a{        
+                padding: 7px 15px;
+                background-color: #F95502;
+                border-radius: 3px;
+                transition: .3s;
+            i{
+                margin-right: 5px;
+            }
+            }
+            a:hover{
+                background-color: #f9540249;
+            }
+        }
+        .head{
+            align-items: center;
+            
+            a{  border-radius: 3px;
+                padding:7px 15px;
+                background-color: #008FCA;
+                transition: .3s;
+            }
+            a:hover{
+                background-color: #008dca5b;
+            }
+        }
+    } 
+}   
+br{
+    color: #4FA2D7;
+}
+// 
+main{
+    background: #f2f4f5;
+    width: 100%;
+    height: auto;
+}
+.manuber{
+    width: 100%;
+    background: url('../img/нерп-520x245.png') center/cover no-repeat;
+    .container{
+        margin: 0 7%;
+        background-color: rgba(0, 126, 191, 0.8);
+        box-shadow: 0 0 15px rgba(255,255,255,0.8);
+        border-bottom: 7px solid rgba(120,200,242,0.8);
+        .manub_nav{
+            display: flex;
+            width: 100%;
+            justify-content: space-between;
+            background-color: rgba(0, 126, 191, 0.6);
+            .manub_ul{
+                padding-left: 1%;
+                display: flex;
+                width: 35%;
+                justify-content: space-between;
+                p{
+
+                    a{
+                        text-decoration: none;
+                        color: white;
+                    }
+                }
+            }
+            .bars{
+                display: none;
+                ol{
+                    list-style: none;
+                    li{
+                        a{
+                            text-decoration: none;
+                            color: white;
+                        }
+                    }
+                }
+            }
+            .manub_ol{
+                padding-right: 1%;
+                width: 20%;
+                display: flex;
+                justify-content: space-between;
+                p{
+                    a{
+                        text-decoration: none;
+                        color: white;
+                    }
+                }
+            }
+        }
+        h3{
+            text-align: center;
+            color: white;
+            margin: 0;
+            background-color: rgba(0, 126, 191, 0.8);
+        }
+        .list{
+            width: 100%;
+            display: flex;
+            .list_anime{
+                background-color: rgb(0, 126, 191,);
+                width: auto;
+                height: auto;
+                margin:  0 10px;
+                padding: 0 5px;
+                .list_img{
+                    background: url('../img/1606865470_poezd.jpg') center/cover no-repeat;
+                    width: auto;
+                    height: 20ch;
+                    border-radius: 5px;
+                    position: relative;
+                    a{  width: 100%;
+                        text-decoration: none;
+                        color: white;
+                        .eyes{
+                            background-color: rgba(192, 94, 239,0.8);
+                            width: 60%;
+                            border: 3px;
+                        }
+                        .added_series{
+                            position: absolute;
+                            bottom: 0;
+                            padding: 10% 7% 0 5%;
+                            background-color: rgba(10,10,10,0.35);
+                            border-radius: 5px;
+                        }
+
+                    }
+                }
+                .list_name_anime{
+                    text-align: center;
+                    height: 4vh;
+                    text-decoration: none;
+
+                    color: white;
+                }
+                .list_img2{
+                    background: url('../img/1594169140_chernyj-klever2.jpg') center/cover no-repeat;
+                }
+                .list_img3{
+                    background: url('../img/1604014370_pravsa.jpg') center/cover no-repeat;
+                }
+                .list_img4{
+                    background: url('../img/1602122949_vorota.jpg') center/cover no-repeat;
+                }
+                .list_img5{
+                    background: url('../img/1597687662_ebannye-2-chasa.jpg') center/cover no-repeat;
+                }
+                .list_img6{
+                    background: url('../img/1597247671_volja.jpg') center/cover no-repeat;
+                }
+            }
+
+        }
+        
+    }
+}
+.content{
+    margin: 0 7%;
+    .attention{
+        margin-top: 12px;
+        border: 1px solid black;
+        text-align: center;
+        padding: 5px 5px;
+        background-color: #F4F7FD;
+        div{
+            border: 1px solid black;
+        }
+    }
+    .anime{
+        margin: 12px 0;
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: space-between;
+        padding: 10px 5px;
+        border: 0.5px solid rgba(0, 0, 0, 0.397);
+        box-shadow: 0 0 25px #cfdae7;
+        .anime_img{
+            background: url('../img/1597247671_volja.jpg') top/cover no-repeat;
+            width: 300%;
+            border-radius: 10px;
+            height: 62vh;
+            .eye{
+                background-color: rgba(192, 94, 239,0.8);
+                width: 35%;
+            }
+            .coment{
+                background: rgba(255,153,0,0.8);
+                width: 15%;
+            }
+            .star{
+                background: rgba(2,176,228,0.8);
+                width: 20%;
+            }
+            p{
+                padding-left: 5px;
+                a{
+                    text-decoration: none;
+                    color: white;
+                }
+            }
+        }
+        .anime_img2{
+            background: url('../img/1597687662_ebannye-2-chasa.jpg') top/cover no-repeat;
+            width: 300%;
+            border-radius: 10px;
+        }
+        .anime_img3{
+            background: url('../img/1594169140_chernyj-klever2.jpg') top/cover no-repeat;
+        }
+        .anime_img4{
+            background: url('../img/1606865470_poezd.jpg') top/cover no-repeat;
+        }
+        .anime_img5{
+            background: url('../img/1604014370_pravsa.jpg') top/cover no-repeat;
+        }
+        .anime_img6{
+            background: url('../img/1602122949_vorota.jpg') top/cover no-repeat;
+        }
+        .anime_img7{
+            background: url('../img/1601421601_poslednee-pole-brani.jpg') top/cover no-repeat;
+        }
+        .anime_img8{
+            background: url('../img/1602123480_zolotoe.jpg') top/cover no-repeat;
+        }
+        .anime_img9{
+            background: url('../img/1601952339_pesn-vremeni.jpg') top/cover no-repeat;
+        }
+        .anime_img10{
+            background: url('../img/1601417713_moriarti.jpg') top/cover no-repeat;
+        }
+        .anime_img11{
+            background: url('../img/1594165615_van-pim.jpg') top/cover no-repeat;
+        }
+        .anime_text{
+            margin-left: 20px;
+            .anime_name{
+                display: flex;
+                div{
+                    height: auto;
+                    width: 10px;
+                    background-color: rgb(0, 126, 191,);
+                }
+            }
+            .when{
+                display: flex;
+                width: 100%;
+                justify-content: space-between;
+                background: #E0EAF3;
+                ol{
+                    display: flex;
+                    list-style: none;
+                    li{
+                        background: #fff;
+                        margin: 0 10px;
+                        padding: 10px;
+                        
+                        i{
+                            color: blue;
+                        }
+
+                        a{
+                            text-decoration: none;
+                            color: green;
+                        }
+                    }
+                }
+                ul{
+                    list-style: none;
+                    li{
+                        margin-right:  10px;
+                        button{
+                            border-radius: 3px;
+                            font-size: 20px;
+                            border: 1px solid rgba(0, 126, 191, 0.9);
+                            background-color: rgba(0, 126, 191, 0.8);
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@media screen and (max-width:1321px){
+    .header_nav{
+        width: 50%;
+    }
+}
+@media screen and (max-width:1224px){
+    .manuber{
+        .container{
+            .manub_nav{
+                .manub_ol{
+                    display: none;
+                    li{
+                        margin: 0 5px;
+                    }
+                }
+                .bars{
+                    display: block;
+                    margin-right: 10px;
+                }
+            }
+            .list{
+                .list_anime{
+                    height: 40vh;
+                    .list_name_anime{   
+                        position: initial;
+                        display: contents;
+                    }
+                }
+            }
+        }
+    }
+}
+@media screen and (max-width:1004px){
+    .header_nav{
+        width: 60%;
+    }
+}
+@media screen and (max-width:968px){
+    .manuber{
+        .container{
+            .list{
+                .list_anime6{
+                    display: none;
+                }
+            }
+        }
+    }
+    .content{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        .anime{
+            display: flex;
+            flex-direction: column;
+            width: 45%;
+            margin: 5px;
+            .anime_img{
+                width: 100%;
+                height: 100vh;
+            }
+            .anime_text{
+                .about_anime{
+                    display: none;
+                }
+                .when{
+                    display: none;
+                    ol{
+                        padding: 0;
+                    }
+                }
+            }
+        }
+    }
+}
+@media screen and (max-width:784px){
+    .manuber{
+        .container{
+            .list{
+                .list_anime5{
+                    display: none;
+                }
+            }
+        }
+    }
+    body{
+        font-size: 15px;
+    }
+}
+@media screen and (max-width:881px){
+    
+    .header_nav{
+        display: none;
+    }
+}
+@media screen and (max-width:596px){
+    header{
+        div{
+            padding: 0%;
+        }
+    }
+    .manuber{
+        .container{
+            .list{
+                height: auto;
+                .list_anime{
+                    height: auto;
+                    .list_name_anime{
+                            font-size: 100%;
+                    }
+                }
+                .list_anime4{
+                    display: none;
+                }
+            }
+        }
+    }
+    .content{
+        text-align: center;
+        .anime{
+            width: 100%;
+        }
+        
+    }
+}
+@media screen and (max-width:535px){
+    .manuber{
+        .container{
+            .manub_nav{
+                .manub_ul{
+                    display: none;
+                }
+            }
+            
+        }
+    }
+}
+@media screen and (max-width:471px){
+    .manuber{
+        .container{
+            .list{
+                .list_anime3{
+                    display: none;
+                }
+            }
+        }
+    }   
+}
+@media screen and (max-width:361px){
+    .manuber{
+        .container{
+            .list{
+                .list_anime2{
+                    display: none;
+                }
+            }
+        }
+    }   
+}
